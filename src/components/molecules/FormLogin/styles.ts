@@ -14,6 +14,10 @@ export const ContentInput = styled.span`
   background: transparent;
   border: solid 2px ${theme.colors.border};
   border-radius: 5px;
-  padding: 15px 20px;
+  padding: 15px;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
 `
