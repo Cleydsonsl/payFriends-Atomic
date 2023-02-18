@@ -5,6 +5,13 @@ import { Container, ContentInput } from "./styles";
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
 
+import { useRouter } from "next/router";
+
+const router = useRouter();
+
+function handleClick() {
+  router.push("/dashboard");
+}
 
 export function FormLogin() {
   return(
@@ -17,7 +24,7 @@ export function FormLogin() {
         <Icon icon={FaLock} color="#D1D1D1" size={18}/>
         <Input placeholder="Senha" value=""/>
       </ContentInput>
-      <Button text="ENTRAR" />
+      <Button text="ENTRAR" onClick={handleClick} />
     </Container>
   )
 }
