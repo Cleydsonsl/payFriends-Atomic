@@ -1,4 +1,4 @@
-import { Header } from "@app/components/molecules/Header";
+import { Header } from "@app/components/organisms/Header";
 
 export default function Dashboard() {
   return (

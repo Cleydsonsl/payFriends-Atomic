@@ -8,10 +8,3 @@ export const Container = styled.div`
   padding: 60px;
   background: ${theme.colors.primary};
 `;
-
-export const Content = styled.div`
-  max-width: 12%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-`;
