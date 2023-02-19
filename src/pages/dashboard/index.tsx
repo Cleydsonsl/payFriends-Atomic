@@ -1,7 +1,7 @@
-import { Header } from "@app/components/organisms/Header";
+import { Transactions } from "@app/components/templates/Transactions";
 
 export default function Dashboard() {
   return (
-    <Header/>
+    <Transactions />
   )
 }

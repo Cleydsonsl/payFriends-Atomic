@@ -7,4 +7,5 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 60px;
   background: ${theme.colors.primary};
+  margin-bottom: 100px;
 `;
