@@ -7,7 +7,7 @@ export interface ButtonProps {
 
 export function Button({text, onClick, ...rest}: ButtonProps) {
   return (
-    <Container {...rest}>
+    <Container {...rest} onClick={onClick}>
       {text}
     </Container>
   )
