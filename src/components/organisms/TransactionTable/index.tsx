@@ -5,6 +5,7 @@ import { Button } from "@app/components/atoms/Button";
 import { Modal } from "@app/components/atoms/Modal";
 import { useModal } from "@app/hooks/useModal";
 import { TransactionModal } from "@app/components/molecules/TransactioModal";
+import { Filter } from "@app/components/molecules/Filter";
 
 const rows = [
   { user: 1, title: "John Doe", date: 30, value: 20, check: "ok" },
@@ -40,6 +41,7 @@ export function TransactionTable() {
         </ContentButton>
         
       </Content>
+      <Filter/>
       <Table headers={headers} rows={rows} />
     </Container>
   )
