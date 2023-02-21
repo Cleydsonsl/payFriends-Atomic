@@ -2,8 +2,7 @@ import { Button } from "@app/components/atoms/Button";
 import { Icon } from "@app/components/atoms/Icon";
 import { Input } from "@app/components/atoms/Input";
 import { Container, ContentInput } from "./styles";
-import { FaUser } from "react-icons/fa";
-import { FaLock } from "react-icons/fa";
+import { FaUser, FaLock } from "react-icons/fa";
 import { useRouter } from "next/router";
 
 export function FormLogin() {

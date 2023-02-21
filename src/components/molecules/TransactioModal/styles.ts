@@ -1,5 +1,5 @@
 import { Button } from "@app/components/atoms/Button";
-import { ButtonProps } from "@app/types";
+import { IButtonProps } from "@app/types";
 import { theme } from "@app/ui/themes/payTheme";
 import styled from "styled-components";
 
@@ -28,7 +28,7 @@ export const Title = styled.div`
   padding-bottom: 70px;
 `;
 
-export const ButtonCancel = styled(Button)<ButtonProps>`
+export const ButtonCancel = styled(Button)<IButtonProps>`
   color: ${theme.colors.text};
   background: ${theme.colors.background};
   font-weight: 700;
@@ -36,7 +36,8 @@ export const ButtonCancel = styled(Button)<ButtonProps>`
   font-size: 18px;
 `;
 
-export const ButtonSave = styled(Button)<ButtonProps>`
+export const ButtonSave = styled(Button)<IButtonProps>`
   font-weight: 700;
   font-size: 18px;
+  background: ${theme.colors.secondary};
 `;

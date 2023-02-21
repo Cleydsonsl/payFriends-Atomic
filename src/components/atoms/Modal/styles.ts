@@ -18,7 +18,7 @@ export const ModalContainer = styled.div`
   background-color: white;
   border-radius: 8px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
-  padding: 24px;
+  padding: 70px;
   width: 80%;
   max-width: 600px;
   max-height: 90%;
@@ -28,4 +28,8 @@ export const ModalContainer = styled.div`
 export const ModalContent = styled.div`
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `;
