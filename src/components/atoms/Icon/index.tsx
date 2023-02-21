@@ -1,4 +1,5 @@
-import { Container, IIconProps } from "./styles";
+import { IIconProps } from "@app/types";
+import { Container } from "./styles";
 
 export function Icon({icon: IconComponent, size=10 , className, color= 'inherit'}: IIconProps) {
   return (

@@ -1,11 +1,6 @@
-import React, { ReactNode } from "react";
+import React from "react";
+import { IModalProps } from "@app/types";
 import { ModalContainer, ModalContent, ModalOverlay } from "./styles";
-
-export interface IModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  children: ReactNode;
-}
 
 export function Modal({ children, isOpen, onClose }: IModalProps) {
 

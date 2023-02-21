@@ -1,6 +1,7 @@
-import { Container, ImageProps } from "./styles";
+import { IImageProps } from "@app/types";
+import { Container } from "./styles";
 
-export function Image(props: ImageProps) {
+export function Image(props: IImageProps) {
   return (
     <Container 
       src={props.src} 

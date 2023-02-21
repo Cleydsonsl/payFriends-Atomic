@@ -1,18 +1,6 @@
-import { IconType } from "react-icons";
+import { IStyledIconProps } from "@app/types";
 import styled from "styled-components";
 
-
-export interface IIconProps {
-  icon: IconType;
-  size?: number;
-  color?: string;
-  className?: string;
-}
-
-interface IStyledIconProps {
-  size: number;
-  color: string;
-}
 
 export const Container = styled.div<IStyledIconProps>`
   display: inline-flex;

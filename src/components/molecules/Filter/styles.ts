@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from "@app/components/atoms/Button";
+import { Button } from "@app/components/atoms/Button";
 import { theme } from "@app/ui/themes/payTheme";
 import styled from "styled-components";
 

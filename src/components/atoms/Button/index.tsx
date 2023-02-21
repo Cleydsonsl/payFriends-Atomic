@@ -1,11 +1,7 @@
 import { Container } from "./styles";
+import { IButtonProps } from "@app/types";
 
-export interface ButtonProps {
-  text: string;
-  onClick?: () => void;
-}
-
-export function Button({text, onClick, ...rest}: ButtonProps) {
+export function Button({text, onClick, ...rest}: IButtonProps) {
   return (
     <Container {...rest} onClick={onClick}>
       {text}
