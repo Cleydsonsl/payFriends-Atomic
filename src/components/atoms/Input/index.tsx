@@ -1,11 +1,10 @@
 import { IInputProps } from "@app/types";
 import { Container } from "./styles";
 
-export function Input({placeholder, value}: IInputProps) {
+export function Input() {
   return (
     <Container
-      placeholder={placeholder}
-      value={value}
+      
     />
   )
 }

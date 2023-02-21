@@ -4,6 +4,7 @@ import {IconType} from "react-icons";
 export interface IButtonProps {
     text: string;
     onClick?: () => void;
+    disabled?: boolean;
 }
 
 export interface IIconProps {
@@ -29,7 +30,6 @@ export interface IImageProps {
 
 export interface IInputProps {
     placeholder: string;
-    value: string;
     onChangeText?: (text: string) => void;
 }
 

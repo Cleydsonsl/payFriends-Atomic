@@ -39,5 +39,6 @@ export const ButtonCancel = styled(Button)<IButtonProps>`
 export const ButtonSave = styled(Button)<IButtonProps>`
   font-weight: 700;
   font-size: 18px;
+  margin-top: 20px;
   background: ${theme.colors.secondary};
 `;

@@ -1,8 +1,6 @@
 import { Table } from "@app/components/molecules/Table";
-import { Container, Content, ContentButton } from "./styles";
+import { ButtonPayment, Container, Content, ContentButton } from "./styles";
 import { Text } from "@app/components/atoms/Text";
-import { Button } from "@app/components/atoms/Button";
-import { Modal } from "@app/components/atoms/Modal";
 import { useModal } from "@app/hooks/useModal";
 import { TransactionModal } from "@app/components/molecules/TransactioModal";
 import { Filter } from "@app/components/molecules/Filter";
@@ -37,7 +35,7 @@ export function TransactionTable() {
           styles={{fontSize: "36px", color: "#4E4E4E", fontWeight: "bold"}}
         />
         <ContentButton>
-          <Button text="ADICIONAR PAGAMENTO" onClick={openModal} />
+          <ButtonPayment text="ADICIONAR PAGAMENTO" onClick={openModal} />
         </ContentButton>
         
       </Content>

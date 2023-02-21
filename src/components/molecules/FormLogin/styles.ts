@@ -1,5 +1,6 @@
 import { theme } from "@app/ui/themes/payTheme";
 import styled from "styled-components";
+import Link from "next/link";
 
 export const Container = styled.form`
   width: 100%;
@@ -20,4 +21,8 @@ export const ContentInput = styled.span`
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-`
+`;
+
+export const ContentButton = styled(Link)`
+  width: 100%;
+`;

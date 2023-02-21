@@ -1,3 +1,6 @@
+import { Button } from "@app/components/atoms/Button";
+import { IButtonProps } from "@app/types";
+import { theme } from "@app/ui/themes/payTheme";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -22,3 +25,9 @@ export const ContentButton = styled.span`
   width: 333px;
   display: flex;
 `;
+
+export const ButtonPayment = styled(Button)<IButtonProps>`
+  font-weight: 700;
+  font-size: 18px;
+  background: ${theme.colors.secondary};
+`
